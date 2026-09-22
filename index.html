@@ -20367,5 +20367,17 @@ document.addEventListener("keydown", function(e) {
 
 })();
 </script>
+    <script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    const NEW_PASSWORD = "123456";
+
+    // تغيير كلمة السر إذا كان المتغير موجوداً باسم PASSWORD
+    try {
+        window.PASSWORD = NEW_PASSWORD;
+    } catch (e) {}
+
+});
+    </script>
 </body>
 </html>
